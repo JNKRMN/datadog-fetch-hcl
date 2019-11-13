@@ -1,0 +1,13 @@
+github.com/cenkalti/backoff v2.1.0+incompatible h1:FIRvWBZrzS4YC7NT5cOuZjexzFvIr+Dbi6aD1cZaNBk=
+github.com/cenkalti/backoff v2.1.0+incompatible/go.mod h1:90ReRw6GdpyfrHakVjL/QHaoyV4aDUVVkXQJJJ3NXXM=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/hashicorp/hcl v1.0.0 h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4=
+github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T20WEQ=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/promiseofcake/datadog-fetch-hcl v0.0.0-20190104013347-f28f7f30a292 h1:mBi9KQ3S4LJ8E/kJoAx6EVpKOYRdDMPOEIsmiyvlYm8=
+github.com/promiseofcake/datadog-fetch-hcl v0.0.0-20190104013347-f28f7f30a292/go.mod h1:YIl33wnrI9yhPWDd1KD+sohdeKtsE1ITEIOswhG1a9k=
+github.com/rodaine/hclencoder v0.0.0-20180926060551-0680c4321930 h1:PIIrOsb96WXqgSgswkf0M0EfWkdkYwdCqP8w4xEC6dk=
+github.com/rodaine/hclencoder v0.0.0-20180926060551-0680c4321930/go.mod h1:hkWgI+PWPCjkVbx8rdk7GhVkpbc/zCLrY/9yF5xGSzI=
+github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/zorkian/go-datadog-api v0.0.0-20181127191241-1df5bda80d16 h1:EqmWY+1/KaEEW981aVnT8N7BfVsOUeXlb4W6szPlgiA=
+github.com/zorkian/go-datadog-api v0.0.0-20181127191241-1df5bda80d16/go.mod h1:PkXwHX9CUQa/FpB9ZwAD45N1uhCW4MT/Wj7m36PbKss=
