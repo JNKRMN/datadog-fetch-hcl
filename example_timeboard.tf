@@ -1,6 +1,6 @@
-resource "datadog_timeboard" "platform-oos-dashboard" {
-  title       = "Platform (OOS) Dashboard"
-  description = "created by alexw@weedmaps.com (cloned)"
+resource "datadog_timeboard" "dd-name-of-board" {
+  title       = "name of board"
+  description = "description of board"
   read_only   = true
 
   template_variable {
@@ -11,7 +11,7 @@ resource "datadog_timeboard" "platform-oos-dashboard" {
 
   template_variable {
     name    = "rancher_stack"
-    default = "platform"
+    default = "rancher_stack_name"
     prefix  = "rancher_stack"
   }
 
@@ -20,7 +20,7 @@ resource "datadog_timeboard" "platform-oos-dashboard" {
     viz   = "timeseries"
 
     request {
-      q    = "sum:new_relic.application_summary.throughput{application:online_ordering_service_production}"
+      q    = "sum:new_relic.application_summary.throughput{application:service_name_production}"
       type = "line"
 
       style {
@@ -36,7 +36,7 @@ resource "datadog_timeboard" "platform-oos-dashboard" {
     viz   = "timeseries"
 
     request {
-      q    = "avg:new_relic.application_summary.response_time{application:online_ordering_service_production}"
+      q    = "avg:new_relic.application_summary.response_time{application:service_name_production}"
       type = "line"
 
       style {
